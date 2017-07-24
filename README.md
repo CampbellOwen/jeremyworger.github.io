@@ -1,7 +1,10 @@
-typography
-==========
+pichichi
+========
 
-Simple HTML &amp; CSS Typography Template.
+Simple one page responsive portfolio template 
 
-Demo: <https://www.simongriffee.com/typography/>  
-License: [Public domain](https://creativecommons.org/publicdomain/zero/1.0/).
+
+
+<h3>Issues or Feedback?</h3>
+
+→ http://github.com/iamfederico/pichichi/issues

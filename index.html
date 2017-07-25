@@ -31,11 +31,18 @@
             
             <ul class="cbp-rfgrid">
     		<img
+	   id="earth1"
            width="176"
-           onclick="this.width=400;this.height=220;"
-           ondblclick="this.width=176;this.height=97;"
-           alt="BEST SIZE"
-           src="images/hand.jpg"
+           onMouseOver=" 
+	         mye=getElementById('earth1');
+	         zoom=setInterval('mye.width=Math.min(1.02*mye.width,1000)',100);
+	         // delay loop that changes height on hover
+	      "
+           onMouseOut="  clearInterval(zoom);
+	   // break the loop setInterval() started when you entered"
+           onclick="clearInterval(zoom);this.width=176"
+           alt="ENTER OVER TO RESIZE IMAGE"
+           src="images/hand.png"
         />
     	  <li><a href="#"><img src="images/port.png" /><div><h3>Image 2</h3></div></a></li>
    			<li><a href="#"><img src="images/port.png" /><div><h3>Image 3</h3></div></a></li>

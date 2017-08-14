@@ -1,6 +1,0 @@
-name: Connie Leung
--
-profession: Front End/UX Dev & IoT Product Designer
--
-email: 
-<hi@yourdomain.com>

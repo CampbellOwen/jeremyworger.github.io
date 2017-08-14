@@ -1,8 +1,0 @@
-title: About
--
-content:
-An IoT-focused Product Designer, UX/Front-End Developer, Entrepreneur and Principal of First and Shadow and the Director of Wearable Innovation at WearHacks.
-
-She specialises in creating meaningful human-centred experiences in the development of responsive web and mobile apps connected to networked-based (IoT, wearable) devices, pre-fab 3D product development and conceptual prototyping for client-side market-ready products.
-
-I can be contacted via Direct Message on Twitter: <https://twitter.com/halloconnie>.

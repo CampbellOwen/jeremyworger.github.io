@@ -92,7 +92,14 @@ $().ready(function() {
         overlayParentElement : 'body'
     }).
 
-  
+    // On start of animation
+    one('animsition.inStart',function(){
+        $('.page-overlay').velocity("fadeOut", { duration: 200 })
+        $('.animsition-overlay-veil').addClass('animsition-overlay-veil-move');
+    }).
+
+    // On end of animation
+    one('animsition.inEnd',function(){
 
     });
 

@@ -94,7 +94,8 @@ $().ready(function() {
 
     // On start of animation
     one('animsition.inStart',function(){
-      
+        $('.page-overlay').velocity("fadeOut", { duration: 0 })
+        $('.animsition-overlay-veil').addClass('animsition-overlay-veil-move');
     }).
 
     // On end of animation

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: externalFont;
+    src: url(/fonts/GT-Walsheim-Pro-Light.woff);
+}
+
+div {
+    font-family: externalFont;
+}
+
+<div>Stylish</div>

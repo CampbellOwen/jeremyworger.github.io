@@ -1,5 +1,4 @@
-
-/*	Index
+/*  Index
 
 	1. Typebold Framework Settings
 		A. Reset CSS
@@ -55,13 +54,18 @@
 
 /*	1B. HTML, Body
 	----------------------------------------------------------------------------------  */
+@font-face {
+    font-family: externalFont;
+    src: url(../fonts/GT-Walsheim-Pro-Light.woff);
+}
+
 
 	html, body {
   		height: 100%;
   		width: 100%;
   		margin: 0;
 		color:#111111; 
-		font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+		font-family: externalFont;
 		font-size:21px;
 		font-weight:300;
 		letter-spacing:0.1px;

@@ -54,11 +54,11 @@
 
 /*	1B. HTML, Body
 	----------------------------------------------------------------------------------  */
+
 @font-face {
     font-family: externalFont;
     src: url(../fonts/GT-Walsheim-Pro-Light.woff);
 }
-
 
 	html, body {
   		height: 100%;
@@ -240,7 +240,7 @@
 
 	h1,h2,h3,h4,h5 {
 		margin-bottom:1rem;
-		font-family:"Playfair Display", "Times New Roman", serif;
+		font-family: externalFont;
 	}
 	h1 {
 		font-size:2.0rem;

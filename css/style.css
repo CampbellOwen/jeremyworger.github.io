@@ -463,46 +463,23 @@
 	}
 
 	/* Cross animation for closing menu */
-	#cross {
-		height:21px;
-		width:21px;
-		margin-top:10px;
-		float:right;
-		display:block;
-		transform:rotate(45deg);
-		cursor:pointer;
-	}
-	#cross span {
-		background:#111;
-		display:block;
-		-webkit-transition:.25s ease-in-out;
-		transition:.25s ease-in-out;
-	}
-	#cross span:nth-child(1) {
-		height:0%;
-		width:1px;
-		position:absolute;
-		top:0;
-		left:11px;
-		transition-delay:0s;
-	}
-	#cross span:nth-child(2) {
-		width:0%;
-		height:1px;
-		left:0;
-		top:11px;
-		position:absolute;
-		transition-delay:.25s;
-	}
-	#cross.open span:nth-child(1) {
-		height:23px;
-		transition-delay:.625s;
-	}
-
-	#cross.open span:nth-child(2) {
-		width:23px;
-		transition-delay:.375s;  
-	}
+	
+#cross { 
+  background: red; 
+  height: 100px; 
+  position: relative; 
+  left: 50px;
+  width: 20px; 
+} 
+#cross:after { 
+  background: red; 
+  content: ""; 
+  height: 20px; 
+  left: -40px; 
+  position: absolute; 
+  top: 40px; 
+  width: 100px; 
+}
 
 
 /*	2D. Footer

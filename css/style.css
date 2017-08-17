@@ -465,14 +465,14 @@
 	/* Cross animation for closing menu */
 	
 #cross { 
-  background: red; 
+  background: white; 
   height: 100px; 
   position: relative; 
   left: 50px;
-  width: 20px; 
+  width: 200px; 
 } 
 #cross:after { 
-  background: red; 
+  background: white; 
   content: ""; 
   height: 20px; 
   left: -40px; 
